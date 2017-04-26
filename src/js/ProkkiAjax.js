@@ -1,3 +1,8 @@
+/** @preserve Prokki Ajax 0.0.2
+ * Available under the MIT license.
+ * See https://github.com/prokki/prokki-ajax/ for more information.
+ */
+
 /**
  *
  * @param {object} options  - initial options
@@ -21,7 +26,7 @@ let ProkkiAjax = function(options)
 
 	this._initializeOptions = function(options)
 	{
-		this._options = $.extend(options || {}, ProkkiAjax.DEFAULTS);
+		this._options = $.extend({}, ProkkiAjax.DEFAULTS, options || {});
 	};
 
 	this._createOverlay = function()

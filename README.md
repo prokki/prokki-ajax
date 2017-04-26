@@ -1,5 +1,6 @@
 ## Prokki Ajax
 
+[![LICENSE](https://img.shields.io/badge/release-0.0.2-blue.svg?style=flat)](https://github.com/prokki/prokki-ajax/tree/0.0.2)
 [![LICENSE](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](LICENSE)
 [![https://jquery.com/](https://img.shields.io/badge/jQuery->3.0-red.svg?style=flat)](https://jquery.com/)
 
